@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>Welcome | About</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/homecss.css') }}">
+</head>
+
+<body>
+	
+	<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="{{ url_for('index') }}">Home</a></li>
+					<li><a href="{{ url_for('about') }}">About Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="about">
+			<div class="about_content">
+				<p>
+					As an exercise for English students, generate a list of ten random words and,
+					have the student write a story that incorporates those words in the order they're generated.
+					You could also take the hard work out of playing MadLibs but for that you'll need to separate out the parts of speech. 
+					There's generators for each one, just jump over using the options below.
+				</p>
+			</div>
+				
+			<div class="about_images">
+			
+			</div>
+			
+			<div class="about_information">
+				<h1>Contact Us</h1>
+				
+				<p>Having a problem??</br>Try contacting us and lets have a conversation...</p>
+				
+				<label>Name</label>
+				<input type="text" placeholder="Enter name" name="name">
+				
+				<label>Email</label>
+				<input type="text" placeholder="Enter email..." name="email">
+				
+				<label>Message</label>
+				
+								
+			</div>
+			
+		</div>
+		
+
+		
+		<footer>&copy Global Code 2019</footer>
+		
+</body>
+</html>
